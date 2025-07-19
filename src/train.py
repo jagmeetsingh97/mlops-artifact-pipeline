@@ -26,7 +26,7 @@ def main():
 
     import os
 
-    config_path = os.path.join(os.path.dirname(__file__), "..", "Config", "Config.json")
+    config_path = os.path.join(os.path.dirname(__file__), "..", "config", "config.json")
     config_path = os.path.abspath(config_path)  # Converts to full path
     #config_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "config", "config.json")
     config = load_config(config_path)
